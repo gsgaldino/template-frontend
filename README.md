@@ -2,10 +2,10 @@
 
 This project contains:
 
-- [https://pt-br.reactjs.org/](`react`)
-- [https://www.npmjs.com/package/react-router-dom](`react-router-dom`)
-- [https://pt-br.reactjs.org/](`styled-components`)
+- [`react`](https://pt-br.reactjs.org/)
+- [`react-router-dom`](https://www.npmjs.com/package/react-router-dom)
+- [`styled-components`](https://pt-br.reactjs.org/)
 
 For code syles:
 
-= [https://eslint.org/](`eslint`)
+- [`eslint`](https://eslint.org/)

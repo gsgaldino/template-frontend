@@ -21,12 +21,6 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
     'import/no-unresolved': 'off',
     'import/extensions': 'off',
+    'import/prefer-default-export': 'off',
   },
-  // settings: {
-  //   'import/resolver': {
-  //     'babel-plugin-root-import': {
-  //       rootPathSuffix: 'src',
-  //     },
-  //   },
-  // },
 };
