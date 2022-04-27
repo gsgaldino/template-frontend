@@ -1,4 +1,4 @@
-const { addBabelPlugin, override } = require('customize-cra');
+const { addBabelPlugin, override, setWebpackStats } = require('customize-cra');
 
 module.exports = override(
   addBabelPlugin([
@@ -7,4 +7,5 @@ module.exports = override(
       rootPathSuffix: 'src',
     },
   ]),
+  setWebpackStats('none'),
 );

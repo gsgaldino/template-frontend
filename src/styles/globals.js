@@ -5,7 +5,9 @@ const GlobalStyles = createGlobalStyle`
     --max-width: 1200px;
 
     /** Colors **/
-    --primary-1: #efefef;
+    --primary-1: #abc4ff;
+    --light-gray: #e2eafc;
+    --absolute-white: #edf2fb;
 
     /** Fonts **/
     --font-family: "Arial", sans-serif;
@@ -34,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     font-size: var(--body-default-font-size);
+    font-family: var(--font-family);
   }
 `;
 

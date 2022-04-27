@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 
 import * as S from './styles';
 
-const Wrapper = forwardRef((props, ref) => (
-  <S.Wrapper ref={ref}>{props.children}</S.Wrapper>
+const Provider = forwardRef((props, ref) => (
+  <S.Provider ref={ref}>{props.children}</S.Provider>
 ));
 
-Wrapper.propTypes = {
+Provider.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default Wrapper;
+export default Provider;

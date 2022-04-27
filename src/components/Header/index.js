@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Wrapper from '~/components/Wrapper';
+import Provider from '~/components/Provider';
 import Logo from '~/components/Logo';
 import Button from '~/components/Button';
 
 import * as S from './styles';
 
-export default function Header() {
+function Header() {
   return (
     <S.Container>
-      <Wrapper>
+      <Provider>
         <S.Header>
           <div>
             <Logo />
@@ -29,7 +29,9 @@ export default function Header() {
             <Button type="ghost">contact</Button>
           </div>
         </S.Header>
-      </Wrapper>
+      </Provider>
     </S.Container>
   );
 }
+
+export default Header;

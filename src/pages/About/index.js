@@ -1,19 +1,18 @@
 import React from 'react';
 
-import Header from '../_layout/Header';
-import Wrapper from '~/components/Wrapper';
+import Provider from '~/components/Provider';
 import Typography from '~/components/Typography';
 
 import * as S from './styles';
 
 export default function About() {
   return (
-    <Wrapper>
+    <Provider>
       <S.Section>
-        <Header />
 
         <Typography variant="body-default">About</Typography>
+
       </S.Section>
-    </Wrapper>
+    </Provider>
   );
 }
